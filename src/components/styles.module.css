@@ -1,0 +1,63 @@
+.NFT{
+    border-radius: 20px;
+}
+
+.ConnectWallet {
+    display: flex !important;
+    padding: 8px 12px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 4px !important;
+
+    border-radius: 8px !important;
+    border: 1px solid #8C8C8C !important;
+}
+
+.main-container{
+    display: flex;
+}
+
+.BuyButton{
+  align-items: center !important;
+  appearance: none !important;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%) !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset !important;
+  box-sizing: border-box !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-family: "JetBrains Mono",monospace !important;
+  height: 48px !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  list-style: none !important;
+  overflow: hidden !important;
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+  position: relative !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  transition: box-shadow .15s,transform .15s !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  white-space: nowrap !important;
+  will-change: box-shadow,transform !important;
+  font-size: 18px !important;
+}
+
+.BuyButton:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset !important;
+}
+
+.BuyButton:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+}
+
+.BuyButton:active {
+  box-shadow: #3c4fe0 0 3px 7px inset !important;
+  transform: translateY(2px) !important;
+}
+
